@@ -14,4 +14,4 @@
     Serif.  Serif fonts have extra details at the end of each stroke of the character.
     Sans-Serif.  Sans-serif fonts have straight ends.
     Monospace.  Monospace characters all have the same width.
-9.  
+9.  The main three units used for specifying font size are pixels, percentages, and ems.
