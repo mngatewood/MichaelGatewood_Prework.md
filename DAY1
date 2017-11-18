@@ -13,3 +13,5 @@
 7.  Empty elements are elements that do not have any words between an opening and closing tag.  They usually contain only one tag.
 8.  Semantic markup is elements that add extra information to text such as emphsis or block quotes.
 9.  <header>, <nav>, and <article> are three new elements introduced in HTML5.
+
+https://codepen.io/mngatewood/pen/WXdjqQ
