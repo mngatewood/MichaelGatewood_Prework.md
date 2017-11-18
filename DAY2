@@ -2,3 +2,5 @@
 2.  The basic structure of an element used to link to another website is: <a href="https://www.website.com>Website</a>.
 3.  You should include the target="blank" attribute to open a link in a new window.
 4.  To link to a specific part of a page, first insert an id attribute inside the opening tag of the element where you would like the page loaded.  Secondly, add the name of the id given--preceded by a #--at the end of the URL.
+
+1.  
