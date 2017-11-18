@@ -3,4 +3,15 @@
 3.  You should include the target="blank" attribute to open a link in a new window.
 4.  To link to a specific part of a page, first insert an id attribute inside the opening tag of the element where you would like the page loaded.  Secondly, add the name of the id given--preceded by a #--at the end of the URL.
 
-1.  
+1.  The purpose of CSS is to specify how different elements are displayed.
+2.  CSS stands for Cascading Style Sheets.  In this case, cascading refers to how rules fall from broad/general down to more specific rules.
+3.  The basic structure of a CSS rule is: p {property: value;}.
+4.  You link a CSS stylesheet to your HTML document by entering a <link> element inside the <head> element to indicate where the style sheet file is located.
+5.  It useful to use external stylesheets becuase you can link multiple pages to a single CSS file, rather than creating unique CSS rules for each individual page.
+6.  Color hex codes are six-digit codes preceded by a #.  The values represent the amount of red, green, and blue in a given color.
+7.  The three parts of an HSL color property are hue, saturation, and lightness.
+8.  The three main categories of fonts are:
+    Serif.  Serif fonts have extra details at the end of each stroke of the character.
+    Sans-Serif.  Sans-serif fonts have straight ends.
+    Monospace.  Monospace characters all have the same width.
+9.  
