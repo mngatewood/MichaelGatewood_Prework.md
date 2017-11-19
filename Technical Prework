@@ -89,5 +89,67 @@ Google Console
     {console.log("You are either " + ageOptOne + " or " + ageOptTwo + ".")};
 5.  var ageCurrent = 42, ageMax = 99, vapeMilsPerDay = 5, daysUntilBDay = 48, vapeMilsTotal = (((ageMax - ageCurrent - 1) * 365.25) + daysUntilBDay) * vapeMilsPerDay;
     {console.log("You will vape approximately " + vapeMilsTotal + " milligrams of eJuice until the ripe age of " + ageMax + ".")};
-    
-    
+
+Eloquent JavaScript Practice
+1.  for (var x = "x"; counter = x.length <= 7; x = x + "x")
+    console.log(x);
+2.  var number = 0;
+    var counter = 0;
+
+    while (counter < 100) 
+
+    if (number % 3 == 0 && number % 5 == 0) {
+      number ++;
+      counter ++;
+      console.log("FizzBuzz");
+    }
+    else if (number % 3 == 0) {
+      number ++;
+      counter ++;
+      console.log("Fizz");
+    }
+    else if (number % 5 == 0) {
+      number ++;
+      counter ++;
+      console.log("Buzz");
+    }
+    else {
+      number ++;
+      counter ++;
+      console.log(number);
+    }
+3.  var length = 1;
+    var height = 1;
+    var grid = ""
+
+    while (height <=8) {
+
+      while (length <=8)
+            if (length % 2 == 0) {
+              grid = grid + "#";
+              length ++;
+            }
+            else {
+              grid = grid + " ";
+              length ++ ;
+            }
+            console.log(grid);
+            length = 1;
+            grid = "";
+            height ++;
+
+      while (length <=8)
+          if (length % 2 == 0) {
+            grid = grid + " ";
+            length ++;
+          }
+          else {
+            grid = grid + "#";
+            length ++;
+          }
+            console.log(grid)
+            length = 1;
+            grid = "";
+            height ++;
+    }
+
