@@ -77,3 +77,17 @@ Chapters 1 and 2
 5.  Var, true, and false are three examples of JavaScript reserved words.  It is important to not use these words as variable names because JavaScript will attempt to execute them in the manner for which they were reserved, not as a named variable.
 6.  Control flow is the order in which statements and expressions are executed by JavaScript.  Control flow is useful in programming because it makes a program more predictable.
 
+Google Console
+1.  You could change the expression "5 > 3" to return a value of false by changing the operator to <.
+2.  if (10 == "ten")
+      {console.log("Console converted the string ten to a number.")}
+    else
+      {console.log("Console did not convert the string ten to a number.")};
+3.  var childrenNum = 2, spouseName = "Juana", residenceCity = "Broomfield", jobTitle = "Student";
+    {console.log("You will be a " + jobTitle + " living in " + residenceCity + " and married to " + spouseName + " with " + childrenNum + " kids.")};
+4.  var yearCurrent = 2017, yearBirth = 1975, ageOptOne = yearCurrent - yearBirth, ageOptTwo = ageOptOne - 1;
+    {console.log("You are either " + ageOptOne + " or " + ageOptTwo + ".")};
+5.  var ageCurrent = 42, ageMax = 99, vapeMilsPerDay = 5, daysUntilBDay = 48, vapeMilsTotal = (((ageMax - ageCurrent - 1) * 365.25) + daysUntilBDay) * vapeMilsPerDay;
+    {console.log("You will vape approximately " + vapeMilsTotal + " milligrams of eJuice until the ripe age of " + ageMax + ".")};
+    
+    
