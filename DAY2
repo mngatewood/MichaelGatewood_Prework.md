@@ -7,7 +7,7 @@
 2.  CSS stands for Cascading Style Sheets.  In this case, cascading refers to how rules fall from broad/general down to more specific rules.
 3.  The basic structure of a CSS rule is: p {property: value;}.
 4.  You link a CSS stylesheet to your HTML document by entering a <link> element inside the <head> element to indicate where the style sheet file is located.
-5.  It useful to use external stylesheets becuase you can link multiple pages to a single CSS file, rather than creating unique CSS rules for each individual page.
+5.  It useful to use external stylesheets because you can link multiple pages to a single CSS file, rather than creating unique CSS rules for each individual page.
 6.  Color hex codes are six-digit codes preceded by a #.  The values represent the amount of red, green, and blue in a given color.
 7.  The three parts of an HSL color property are hue, saturation, and lightness.
 8.  The three main categories of fonts are:
