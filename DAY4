@@ -1,1 +1,10 @@
+1.  The alt attribute is important because it provides a description of the image in the event that the image cannot be displayed.
 
+2.  Where you place the image in your code determines whether it is displayed block-level or inline.  If the image is inside a block-level parent element, it will be displayed as block-level.  If it is in an inline element, it will be displayed inline.
+
+3.  The jpg format is suitable for images with many colors, while png is better suited for images with fewer colors.
+
+
+1.  Specifying the image size in CSS allows the browser to render the rest of the page without waiting for the image to download.  It also facilitates consistent image sizes by defining the properties for all images in CSS.
+
+2.  An image sprite is when a single image is used for several different parts of an interface.  The advantage of using sprites is that the web browser only needs to request one image rather than many images, which can make the web page load faster.
