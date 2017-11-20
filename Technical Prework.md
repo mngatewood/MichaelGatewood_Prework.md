@@ -27,19 +27,19 @@
 ## DAY 2
 
 ### Chapters 3 and 4
-1.  Ordered lists are numbered lists, while unordered lists are bulleted.  Definition lists do not have numbers or bullets, but contain an additional row of characters referred to as a definition.
+1.  Ordered lists are numbered lists, while unordered lists are bulleted.  Definition lists do not have numbers or bullets, but contain an additional block of characters referred to as a definition.
 2.  The basic structure of an element used to link to another website is: 
 
     `<a href="https://www.website.com>Website</a>`.
 
-3.  You should include the target="blank" attribute to open a link in a new window.
+3.  You should include the `target="blank"` attribute to open a link in a new window.
 4.  To link to a specific part of a page, first insert an id attribute inside the opening tag of the element where you would like the page loaded.  Secondly, add the name of the id given--preceded by a #--at the end of the URL.
 
 ### Chapters 10-12
 1.  The purpose of CSS is to specify how different elements are displayed.
 2.  CSS stands for Cascading Style Sheets.  In this case, cascading refers to how rules fall from broad/general down to more specific rules.
 3.  The basic structure of a CSS rule is: `p {property: value;}`.
-4.  You link a CSS stylesheet to your HTML document by entering a <link> element inside the <head> element to indicate where the style sheet file is located.
+4.  You link a CSS stylesheet to your HTML document by entering a `<link>` element inside the `<head>` element to indicate where the style sheet file is located.
 5.  It useful to use external stylesheets because you can link multiple pages to a single CSS file, rather than creating unique CSS rules for each individual page.
 6.  Color hex codes are six-digit codes preceded by a #.  The values represent the amount of red, green, and blue in a given color.
 7.  The three parts of an HSL color property are hue, saturation, and lightness.
@@ -79,14 +79,14 @@
 
 ### Chapters 1 and 2
 1.  In JavaScript, number data types are numbers, strings are text, and booleans are true/false values.
-2.  And, or, and not are the three logical operators that JavaScript supports.
+2.  `and`, `or`, and `not` are the three logical operators that JavaScript supports.
 3.  Variables can be any word that is not a reserved word.  They can contain numbers, but cannot begin with a number.  They cannot contain punctionation other than $ and _.
 4.  An expression is code that results in a value.  A statement is a series of expressions.
-5.  Var, true, and false are three examples of JavaScript reserved words.  It is important to not use these words as variable names because JavaScript will attempt to execute them in the manner for which they were reserved, not as a named variable.
+5.  `var`, `true`, and `false` are three examples of JavaScript reserved words.  It is important to not use these words as variable names because JavaScript will attempt to execute them in the manner for which they were reserved, not as a named variable.
 6.  Control flow is the order in which statements and expressions are executed by JavaScript.  Control flow is useful in programming because it makes a program more predictable.
 
 ### Google Console
-1.  You could change the expression `5 > 3` to return a value of false by changing the operator to <.
+1.  You could change the expression `5 > 3` to return a value of false by changing the operator to `<`.
 2.  `"2" === 2` returns a value of false because the operator prevents the console from converting the string to a number.
 3.  
 ````
@@ -99,22 +99,24 @@
 ### Variable Exercises
 1.  
 ````
-    var childrenNum = 2, spouseName = "Juana", residenceCity = "Broomfield", jobTitle = "Student";
-    {console.log("You will be a " + jobTitle + " living in " + residenceCity + " and married to " + 
-        spouseName + " with " + childrenNum + " kids.")};
+    var childrenNum = 2, spouseName = "Juana", residenceCity = "Broomfield", 
+        jobTitle = "Student";
+    {console.log("You will be a " + jobTitle + " living in " + residenceCity + 
+        " and married to " + spouseName + " with " + childrenNum + " kids.")};
 ````
 2.  
 ````
-    var yearCurrent = 2017, yearBirth = 1975, ageOptOne = yearCurrent - yearBirth, 
-        ageOptTwo = ageOptOne - 1;
+    var yearCurrent = 2017, yearBirth = 1975, ageOptOne = yearCurrent - 
+        yearBirth, ageOptTwo = ageOptOne - 1;
     {console.log("You are either " + ageOptOne + " or " + ageOptTwo + ".")};
 ````
 3.  
 ````
     var ageCurrent = 42, ageMax = 99, vapeMilsPerDay = 5, daysUntilBDay = 48, 
-        vapeMilsTotal = (((ageMax - ageCurrent - 1) * 365.25) + daysUntilBDay) * vapeMilsPerDay;
-    {console.log("You will vape approximately " + vapeMilsTotal + " milligrams of eJuice until 
-        the ripe age of " + ageMax + ".")};
+        vapeMilsTotal = (((ageMax - ageCurrent - 1) * 365.25) + daysUntilBDay) 
+        * vapeMilsPerDay;
+    {console.log("You will vape approximately " + vapeMilsTotal + " milligrams 
+        of eJuice until the ripe age of " + ageMax + ".")};
 ````
 
 ### Eloquent JavaScript Practice
@@ -192,7 +194,7 @@
 ## DAY 6
 
 ### Chapter 3
-1.  Entering SayHello in the console returns the function, while entereing SayHello() returns the result of the function.
+1.  Entering `SayHello` in the console returns the function, while entereing `SayHello()` returns the result of the function.
 2.  The keyword return is used to determine the value the function returns.
 3.  Parameters are values that are specified by the caller of the function.
 4.  The naming convention for functions is the same as for variables.
