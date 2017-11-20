@@ -22,15 +22,15 @@
 
 Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
 
-DAY 2
+## DAY 2
 
-Chapters 3 and 4
+### Chapters 3 and 4
 1.  Ordered lists are numbered lists, while unordered lists are bulleted.  Definition lists do not have numbers or bullets, but contain an additional row of characters referred to as a definition.
-2.  The basic structure of an element used to link to another website is: <a href="https://www.website.com>Website</a>.
+2.  The basic structure of an element used to link to another website is: `<a href="https://www.website.com>Website</a>`.
 3.  You should include the target="blank" attribute to open a link in a new window.
 4.  To link to a specific part of a page, first insert an id attribute inside the opening tag of the element where you would like the page loaded.  Secondly, add the name of the id given--preceded by a #--at the end of the URL.
 
-Chapters 10-12
+### Chapters 10-12
 1.  The purpose of CSS is to specify how different elements are displayed.
 2.  CSS stands for Cascading Style Sheets.  In this case, cascading refers to how rules fall from broad/general down to more specific rules.
 3.  The basic structure of a CSS rule is: p {property: value;}.
@@ -39,40 +39,40 @@ Chapters 10-12
 6.  Color hex codes are six-digit codes preceded by a #.  The values represent the amount of red, green, and blue in a given color.
 7.  The three parts of an HSL color property are hue, saturation, and lightness.
 8.  The three main categories of fonts are:
-    Serif.  Serif fonts have extra details at the end of each stroke of the character.
-    Sans-Serif.  Sans-serif fonts have straight ends.
-    Monospace.  Monospace characters all have the same width.
+    * Serif.  Serif fonts have extra details at the end of each stroke of the character.
+    * Sans-Serif.  Sans-serif fonts have straight ends.
+    * Monospace.  Monospace characters all have the same width.
 9.  The main three units used for specifying font size are pixels, percentages, and ems.
 
-DAY 3
+## DAY 3
 
-Chapter 7
-1.  The "type" attribute controls the behavior of an input element.
-2.  The <select> element is used to create a drop-down box.
-3.  The "type" attribute should be set to "submit" in order to send form data to a server.
-4.  The <fieldset> element is used to group similar form items together.
+### Chapter 7
+1.  The `type` attribute controls the behavior of an input element.
+2.  The `<select>` element is used to create a drop-down box.
+3.  The `type` attribute should be set to "submit" in order to send form data to a server.
+4.  The `<fieldset>` element is used to group similar form items together.
 
-Chapters 13 and 15
+### Chapters 13 and 15
 1.  The border is the box that surrounds an element.  It separates the margin (space immediately outside the border) from the padding (space between the border and the element's content).
 2.  For a CSS rule padding: 1px 2px 5px 10px; the top padding is 1 pixel, the right padding is 2 pixels, the bottom padding is 5 pixels and the left padding is 10 pixels.
 3.  Block-level elements will always begin on a new line while inline elements sit within block-level elements and do not start a new line.
 4.  Because fixed positioning is relative to the screen and not the rest of the page, it remains in the same position on the screen regardless of which part of the page you are viewing.  Z-index is important because in the case of overlap, it specifies which element is visible and which is covered by the other element.
 5.  Fixed width content remains the same size (indicated in pixels), regardless of the size of the browser window.  Liquid layout content stretches and compacts as the browser window changes size.  Percentages are used in liquid layouts.
 
-DAY 4
+## DAY 4
 
-Chapter 5
+### Chapter 5
 1.  The alt attribute is important because it provides a description of the image in the event that the image cannot be displayed.
 2.  Where you place the image in your code determines whether it is displayed block-level or inline.  If the image is inside a block-level parent element, it will be displayed as block-level.  If it is in an inline element, it will be displayed inline.
 3.  The jpg format is suitable for images with many colors, while png is better suited for images with fewer colors.
 
-Chapter 16
+### Chapter 16
 1.  Specifying the image size in CSS allows the browser to render the rest of the page without waiting for the image to download.  It also facilitates consistent image sizes by defining the properties for all images in CSS.
 2.  An image sprite is when a single image is used for several different parts of an interface.  The advantage of using sprites is that the web browser only needs to request one image rather than many images, which can make the web page load faster.
 
-DAY 5
+## DAY 5
 
-Chapters 1 and 2
+### Chapters 1 and 2
 1.  In JavaScript, number data types are numbers, strings are text, and booleans are true/false values.
 2.  And, or, and not are the three logical operators that JavaScript supports.
 3.  Variables can be any word that is not a reserved word.  They can contain numbers, but cannot begin with a number.  They cannot contain punctionation other than $ and _.
@@ -80,14 +80,18 @@ Chapters 1 and 2
 5.  Var, true, and false are three examples of JavaScript reserved words.  It is important to not use these words as variable names because JavaScript will attempt to execute them in the manner for which they were reserved, not as a named variable.
 6.  Control flow is the order in which statements and expressions are executed by JavaScript.  Control flow is useful in programming because it makes a program more predictable.
 
-Google Console
-1.  You could change the expression "5 > 3" to return a value of false by changing the operator to <.
-2.  if (10 == "ten")
+### Google Console
+1.  You could change the expression `5 > 3` to return a value of false by changing the operator to <.
+2.  `"2" === 2` returns a value of false because the operator prevents the console from converting the string to a number.
+3.  
+````
+    if (10 == "ten")
       {console.log("Console converted the string ten to a number.")}
     else
       {console.log("Console did not convert the string ten to a number.")};
+    ````
       
-Variable Exercises
+### Variable Exercises
 1.  var childrenNum = 2, spouseName = "Juana", residenceCity = "Broomfield", jobTitle = "Student";
     {console.log("You will be a " + jobTitle + " living in " + residenceCity + " and married to " + spouseName + " with " + childrenNum + " kids.")};
 2.  var yearCurrent = 2017, yearBirth = 1975, ageOptOne = yearCurrent - yearBirth, ageOptTwo = ageOptOne - 1;
@@ -95,7 +99,7 @@ Variable Exercises
 3.  var ageCurrent = 42, ageMax = 99, vapeMilsPerDay = 5, daysUntilBDay = 48, vapeMilsTotal = (((ageMax - ageCurrent - 1) * 365.25) + daysUntilBDay) * vapeMilsPerDay;
     {console.log("You will vape approximately " + vapeMilsTotal + " milligrams of eJuice until the ripe age of " + ageMax + ".")};
 
-Eloquent JavaScript Practice
+### Eloquent JavaScript Practice
 1.  for (var x = "x"; counter = x.length <= 7; x = x + "x")
     console.log(x);
 2.  var number = 0;
