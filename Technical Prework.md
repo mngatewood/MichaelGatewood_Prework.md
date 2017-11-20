@@ -273,7 +273,7 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
     * The former website makes me crave a steak dinner and a night out, while the latter gives me anxiety and makes me question the credibility of this "art" school.
 2.  Usability: Is it easy to find (good), hard to miss (better), or subconsciously expected (best)?
     * Good: [facebook.com](https://www.facebook.com)
-    * Bad: [arngren.net](www.arngren.net)
+    * Bad: [arngren.net](http://www.arngren.net)
     * Facebook makes good use the most frequently used navigation tools at the top of the page and they are intuitive.  The latter is so cluttered that the index, search tool, and contact information (all in different parts of the page) get lost in the chaos.
 3.  Design: Does it communicate the purpose and function without words?
     * Good: [polaroidoriginals.com](https://us.polaroidoriginals.com)
