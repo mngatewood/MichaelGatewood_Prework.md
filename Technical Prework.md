@@ -97,17 +97,35 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
 ````
       
 ### Variable Exercises
-1.  var childrenNum = 2, spouseName = "Juana", residenceCity = "Broomfield", jobTitle = "Student";
-    {console.log("You will be a " + jobTitle + " living in " + residenceCity + " and married to " + spouseName + " with " + childrenNum + " kids.")};
-2.  var yearCurrent = 2017, yearBirth = 1975, ageOptOne = yearCurrent - yearBirth, ageOptTwo = ageOptOne - 1;
+1.  
+````
+    var childrenNum = 2, spouseName = "Juana", residenceCity = "Broomfield", jobTitle = "Student";
+    {console.log("You will be a " + jobTitle + " living in " + residenceCity + " and married to " + 
+        spouseName + " with " + childrenNum + " kids.")};
+````
+2.  
+````
+    var yearCurrent = 2017, yearBirth = 1975, ageOptOne = yearCurrent - yearBirth, 
+        ageOptTwo = ageOptOne - 1;
     {console.log("You are either " + ageOptOne + " or " + ageOptTwo + ".")};
-3.  var ageCurrent = 42, ageMax = 99, vapeMilsPerDay = 5, daysUntilBDay = 48, vapeMilsTotal = (((ageMax - ageCurrent - 1) * 365.25) + daysUntilBDay) * vapeMilsPerDay;
-    {console.log("You will vape approximately " + vapeMilsTotal + " milligrams of eJuice until the ripe age of " + ageMax + ".")};
+````
+3.  
+````
+    var ageCurrent = 42, ageMax = 99, vapeMilsPerDay = 5, daysUntilBDay = 48, 
+        vapeMilsTotal = (((ageMax - ageCurrent - 1) * 365.25) + daysUntilBDay) * vapeMilsPerDay;
+    {console.log("You will vape approximately " + vapeMilsTotal + " milligrams of eJuice until 
+        the ripe age of " + ageMax + ".")};
+````
 
 ### Eloquent JavaScript Practice
-1.  for (var x = "x"; counter = x.length <= 7; x = x + "x")
+1.  
+````
+    for (var x = "x"; counter = x.length <= 7; x = x + "x")
     console.log(x);
-2.  var number = 0;
+````
+2.  
+````
+    var number = 0;
     var counter = 0;
 
     while (counter < 100) 
@@ -132,7 +150,10 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
       counter ++;
       console.log(number);
     }
-3.  var length = 1;
+````
+3.  
+````
+    var length = 1;
     var height = 1;
     var grid = ""
 
@@ -166,7 +187,7 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
             grid = "";
             height ++;
     }
-
+````
 DAY 6
 
 Chapter 3
