@@ -277,13 +277,13 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
     * Facebook makes good use the most frequently used navigation tools at the top of the page and they are intuitive.  The latter is so cluttered that the index, search tool, and contact information (all in different parts of the page) get lost in the chaos.
 3.  Design: Does it communicate the purpose and function without words?
     * Good: [polaroidoriginals.com](https://us.polaroidoriginals.com)
-    * Bad: [alfredsung.com](www.alfredsung.com)
+    * Bad: [alfredsung.com](http://www.alfredsung.com)
     * The purpose of the polaroid website is immediately clear and further supported by its navigation tools.  The latter tries to use images in a similar manner, but they are so unrelated that it fails to convey a clear message.  Navigation on this site is not as clear as it could be.
 4.  Copyright: Does it reduce anxiety?
-    * Good: [apple.com](www.apple.com)
-    * Bad: [jamilin.com](www.jamilin.com)
+    * Good: [apple.com](https://www.apple.com)
+    * Bad: [jamilin.com](http://www.jamilin.com)
     * Apple uses short statements that are compelling and straight-forward.  Navigation text is also short and simple.  Text in the latter page is unorganized, verbose, and unfocused.
 5.  Analysis:  How can you use this analysis to make improvements?
-    * Good: [ahrefs.com](www.ahrefs.com)
-    * Bad: [theroommovie.com](www.theroommovie.com)
+    * Good: [ahrefs.com](https://ahrefs.com)
+    * Bad: [theroommovie.com](http://www.theroommovie.com)
     * This question is diffucult to answer without assumptions.  So the assumption is that the first site's product is analytics, so they must be efficient with analysis of their own site.  The next assumption is that if the second site used any type of analytics, they would invest the time to build some navigation tools and place some of the less popular content in separate pages. 
