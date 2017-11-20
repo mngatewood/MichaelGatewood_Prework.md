@@ -276,7 +276,7 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
     * Bad: www.arngren.net
     * Facebook makes good use the most frequently used navigation tools at the top of the page and they are intuitive.  The latter is so cluttered that the index, search tool, and contact information (all in different parts of the page) get lost in the chaos.
 3.  Design: Does it communicate the purpose and function without words?
-    * Good: www.us.polaroidoriginals.com
+    * Good: https://us.polaroidoriginals.com
     * Bad: www.alfredsung.com
     * The purpose of the polaroid website is immediately clear and further supported by its navigation tools.  The latter tries to use images in a similar manner, but they are so unrelated that it fails to convey a clear message.  Navigation on this site is not as clear as it could be.
 4.  Copyright: Does it reduce anxiety?
