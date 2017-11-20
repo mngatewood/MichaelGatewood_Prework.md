@@ -188,37 +188,54 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
             height ++;
     }
 ````
-DAY 6
 
-Chapter 3
+## DAY 6
+
+### Chapter 3
 1.  Entering SayHello in the console returns the function, while entereing SayHello() returns the result of the function.
 2.  The keyword return is used to determine the value the function returns.
 3.  Parameters are values that are specified by the caller of the function.
 4.  The naming convention for functions is the same as for variables.
 
-Function Exercises
-1.  function tellFortune(childrenNum, spouseName, residenceCity, jobTitle) {
-    var fortune = "You will be a " + jobTitle + " living in " + residenceCity + " and married to " + spouseName + " with " + childrenNum + " kids.";
+### Function Exercises
+1.  
+````
+    function tellFortune(childrenNum, spouseName, residenceCity, jobTitle) {
+    var fortune = "You will be a " + jobTitle + " living in " + residenceCity + " and married to " +
+        spouseName + " with " + childrenNum + " kids.";
     console.log(fortune);
-}
-2.  function calculateAge(yearCurrent, yearBirth) {
+    }
+````
+2.  
+````
+    function calculateAge(yearCurrent, yearBirth) {
     var ageOptOne = yearCurrent - yearBirth;
     var ageOptTwo = ageOptOne - 1;
     {console.log("You are either " + ageOptOne + " or " + ageOptTwo + ".")};
     }
-3.  function calculateSupply(ageCurrent, ageMax, daysUntilBDay, vapeMilsPerDay) {
+````
+3.  
+````
+    function calculateSupply(ageCurrent, ageMax, daysUntilBDay, vapeMilsPerDay) {
     var vapeMilsTotal = (((ageMax - ageCurrent - 1) * 365.25) + daysUntilBDay) * vapeMilsPerDay;
-    {console.log("You will vape approximately " + vapeMilsTotal + " milligrams of eJuice until the ripe age of " + ageMax + ".")};
+    {console.log("You will vape approximately " + vapeMilsTotal + " milligrams of eJuice until 
+        the ripe age of " + ageMax + ".")};
     }
+````
 
-Eloquent JavaScript Exercises
-1.  function min(a, b) {
+### Eloquent JavaScript Exercises
+1.  
+````
+    function min(a, b) {
       if (a < b)
         return a;
       else
         return b;
     }
-2.  function isEven(n) {
+````
+2.  
+````
+    function isEven(n) {
     if (n == 0)
       return true;
     else if (n == 1)
@@ -230,7 +247,10 @@ Eloquent JavaScript Exercises
     else
       return "Not a number.";
     }
-3.  function countChar(string, ch) {
+````
+3.  
+````
+    function countChar(string, ch) {
       var counted = 0;
       for (var i = 0; i < string.length; i++)
         if (string.charAt(i) == ch)
@@ -241,11 +261,12 @@ Eloquent JavaScript Exercises
     function countBs(string) {
       return countChar(string, "B");
     }
-//I cheated on #3.
+````    
+*I cheated on #3.*
 
-DAY 7
+## DAY 7
 
-Five Main Ingredients of UX
+### Five Main Ingredients of UX
 1.  Psychology: How does this make them feel?
     Good: 4rsmokehouse.com
     Bad: art.yale.edu
