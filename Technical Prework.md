@@ -2,7 +2,7 @@
 
 ## DAY 1
 
-Chapters 1 and 2
+### Chapters 1 and 2
 1.  HTML code describes the structure of a document using different elements.
 2.  Elements are used to specify attributes of parts of a document.  Tags are used to indicate the beginning and end of an element.
 3.  Attributes are used to provide additional information about an element such as height and width, CSS style, or the URL for a hyperlink.
@@ -10,14 +10,15 @@ Chapters 1 and 2
     TITLE: Defines the title of the page to be displayed in thew browser toolbar, favorites, and search engine results.
     BODY: Contains all the contents of a page to be displayed in a browser.
 5.  From the View pull-down menu, go to Developer and select View Source.  Alternatively, you can use the following keyboard shortcut: option-control-U.
-6.  <h1></h1> is a level 1 heading element and is used for main headings.
-    <b></b> is a bolded element and is used to make characters appear bold.
-    <hr /> is a horizontal rule and it displays a horizontal line at the specified part of a page.
-    <em></em> is an emphasis element.  It indicates emphasis that subtly changes the meaning of a sentence and is shown in italic.
-    <abbr></abbr> is an abbreviation element.  It is used to specify the full term of an abbreviation or acronym using a title attribute in the opening tag.
+6.  Five different elements:
+    * `<h1></h1>` is a level 1 heading element and is used for main headings.
+    * `<b></b>` is a bolded element and is used to make characters appear bold.
+    * `<hr />` is a horizontal rule and it displays a horizontal line at the specified part of a page.
+    * `<em></em>` is an emphasis element.  It indicates emphasis that subtly changes the meaning of a sentence and is shown in italic.
+    * `<abbr></abbr>` is an abbreviation element.  It is used to specify the full term of an abbreviation or acronym using a title attribute in the opening tag.
 7.  Empty elements are elements that do not have any words between an opening and closing tag.  They usually contain only one tag.
 8.  Semantic markup is elements that add extra information to text such as emphasis or block quotes.
-9.  <header>, <nav>, and <article> are three new elements introduced in HTML5.
+9.  `<header>`, `<nav>`, and `<article>` are three new elements introduced in HTML5.
 
 Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
 
