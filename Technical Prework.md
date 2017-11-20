@@ -95,7 +95,6 @@
     else
       {console.log("Console did not convert the string ten to a number.")};
 ````
-      
 ### Variable Exercises
 1.  
 ````
@@ -272,7 +271,7 @@
 1.  Psychology: How does this make them feel?
     * Good: [4rsmokehouse.com](https://4rsmokehouse.com)
     * Bad: [art.yale.udu](http://art.yale.edu)
-    * The former website makes me crave a steak dinner and a night out, while the latter gives me anxiety and makes me question the credibility of this "art" school.
+    * The former website makes me crave a steak dinner and a night out, while the latter gives me anxiety and makes me question the credibility of this *art* school.
 2.  Usability: Is it easy to find (good), hard to miss (better), or subconsciously expected (best)?
     * Good: [facebook.com](https://www.facebook.com)
     * Bad: [arngren.net](http://www.arngren.net)
