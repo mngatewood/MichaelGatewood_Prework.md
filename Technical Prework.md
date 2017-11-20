@@ -268,7 +268,7 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
 
 ### Five Main Ingredients of UX
 1.  Psychology: How does this make them feel?
-    * Good: www.4rsmokehouse.com
+    * Good: https://4rsmokehouse.com
     * Bad: www.art.yale.edu
     * The former website makes me crave a steak dinner and a night out, while the latter gives me anxiety and makes me question the credibility of this "art" school.
 2.  Usability: Is it easy to find (good), hard to miss (better), or subconsciously expected (best)?
