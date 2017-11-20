@@ -9,7 +9,7 @@
 4.  HEAD: Contains information about the page, such as the title.
 
     TITLE: Defines the title of the page to be displayed in thew browser toolbar, favorites, and search engine results.
-
+    
     BODY: Contains all the contents of a page to be displayed in a browser.
 5.  From the View pull-down menu, go to Developer and select View Source.  Alternatively, you can use the following keyboard shortcut: option-control-U.
 6.  Five different elements:
@@ -28,14 +28,17 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
 
 ### Chapters 3 and 4
 1.  Ordered lists are numbered lists, while unordered lists are bulleted.  Definition lists do not have numbers or bullets, but contain an additional row of characters referred to as a definition.
-2.  The basic structure of an element used to link to another website is: `<a href="https://www.website.com>Website</a>`.
+2.  The basic structure of an element used to link to another website is: 
+
+    `<a href="https://www.website.com>Website</a>`.
+
 3.  You should include the target="blank" attribute to open a link in a new window.
 4.  To link to a specific part of a page, first insert an id attribute inside the opening tag of the element where you would like the page loaded.  Secondly, add the name of the id given--preceded by a #--at the end of the URL.
 
 ### Chapters 10-12
 1.  The purpose of CSS is to specify how different elements are displayed.
 2.  CSS stands for Cascading Style Sheets.  In this case, cascading refers to how rules fall from broad/general down to more specific rules.
-3.  The basic structure of a CSS rule is: p {property: value;}.
+3.  The basic structure of a CSS rule is: `p {property: value;}`.
 4.  You link a CSS stylesheet to your HTML document by entering a <link> element inside the <head> element to indicate where the style sheet file is located.
 5.  It useful to use external stylesheets because you can link multiple pages to a single CSS file, rather than creating unique CSS rules for each individual page.
 6.  Color hex codes are six-digit codes preceded by a #.  The values represent the amount of red, green, and blue in a given color.
@@ -91,7 +94,7 @@ Link to my pen:  https://codepen.io/mngatewood/pen/WXdjqQ
       {console.log("Console converted the string ten to a number.")}
     else
       {console.log("Console did not convert the string ten to a number.")};
-    ````
+````
       
 ### Variable Exercises
 1.  var childrenNum = 2, spouseName = "Juana", residenceCity = "Broomfield", jobTitle = "Student";
