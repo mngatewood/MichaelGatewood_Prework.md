@@ -1,4 +1,4 @@
-# Turing Prework
+# Turing Pre-Work
 
 ## DAY 1
 
@@ -80,7 +80,7 @@
 ### Chapters 1 and 2
 1.  In JavaScript, number data types are numbers, strings are text, and booleans are true/false values.
 2.  `and`, `or`, and `not` are the three logical operators that JavaScript supports.
-3.  Variables can be any word that is not a reserved word.  They can contain numbers, but cannot begin with a number.  They cannot contain punctionation other than $ and _.
+3.  Variables can be any word that is not a reserved word.  They can contain numbers, but cannot begin with a number.  They cannot contain punctuation other than $ and _.
 4.  An expression is code that results in a value.  A statement is a series of expressions.
 5.  `var`, `true`, and `false` are three examples of JavaScript reserved words.  It is important to not use these words as variable names because JavaScript will attempt to execute them in the manner for which they were reserved, not as a named variable.
 6.  Control flow is the order in which statements and expressions are executed by JavaScript.  Control flow is useful in programming because it makes a program more predictable.
@@ -193,7 +193,7 @@
 ## DAY 6
 
 ### Chapter 3
-1.  Entering `SayHello` in the console returns the function, while entereing `SayHello()` returns the result of the function.
+1.  Entering `SayHello` in the console returns the function, while entering `SayHello()` returns the result of the function.
 2.  The keyword return is used to determine the value the function returns.
 3.  Parameters are values that are specified by the caller of the function.
 4.  The naming convention for functions is the same as for variables.
@@ -287,4 +287,4 @@
 5.  Analysis:  How can you use this analysis to make improvements?
     * Good: [ahrefs.com](https://ahrefs.com)
     * Bad: [theroommovie.com](http://www.theroommovie.com)
-    * This question is diffucult to answer without assumptions.  So the assumption is that the first site's product is analytics, so they must be efficient with analysis of their own site.  The next assumption is that if the second site used any type of analytics, they would invest the time to build some navigation tools and place some of the less popular content in separate pages. 
+    * This question is difficult to answer without assumptions.  So the assumption is that the first site's product is analytics, so they must be efficient with analysis of their own site.  The next assumption is that if the second site used any type of analytics, they would invest the time to build some navigation tools and place some of the less popular content in separate pages. 
