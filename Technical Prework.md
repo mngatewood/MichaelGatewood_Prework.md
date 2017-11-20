@@ -7,7 +7,9 @@
 2.  Elements are used to specify attributes of parts of a document.  Tags are used to indicate the beginning and end of an element.
 3.  Attributes are used to provide additional information about an element such as height and width, CSS style, or the URL for a hyperlink.
 4.  HEAD: Contains information about the page, such as the title.
+
     TITLE: Defines the title of the page to be displayed in thew browser toolbar, favorites, and search engine results.
+
     BODY: Contains all the contents of a page to be displayed in a browser.
 5.  From the View pull-down menu, go to Developer and select View Source.  Alternatively, you can use the following keyboard shortcut: option-control-U.
 6.  Five different elements:
